@@ -1,0 +1,33 @@
+---
+title: আর্কাইভবিডি
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+brief-intro: একটি মুজাহিদিন সংগ্রহশালা
+baseurl: 
+url: 
+permalink: "/:year/:month/:day/:title/"
+description_footer: আর্কাইভবিডি | একটি মুজাহিদিন সংগ্রহশালা
+duoshuo_shortname: 
+disqus_shortname: 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+category_dir: category/
+tag_dir: tag/
+excerpt_separator: |2+
+
+
+
+
+gems:
+- jekyll-paginate
+paginate: 10
+plugins:
+- jekyll-paginate
